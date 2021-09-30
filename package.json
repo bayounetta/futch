@@ -3,48 +3,21 @@
   "private": true,
   "description": "a place to keep links to my work and all my cute things",
   "repository": "https://github.com/metalcanine/futch/",
-  "bugs": "https://github.com/metalcanine/futch/issues",
   "version": "0.1.0",
-  "license": "BSD-3-Clause",
+  "license": "UNLICENSED",
   "scripts": {
-    "build": "gatsby build",
-    "clean": "npx rimraf node_modules/ .cache/ public/ **/__snapshots__/",
-    "deploy": "npm run build && node ./src/utilities/deploy.js",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "jest"
-  },
-  "engines": {
-    "node": ">6",
-    "npm": ">12"
+    "build":    "",
+    "start":    "",
+    "clean":    "",
+    "format":   "",
+    "test":     "",
+    "deploy":   ""
   },
   "dependencies": {
-    "gatsby": "^2.19.19",
-    "gatsby-image": "^2.2.41",
-    "gatsby-plugin-sass": "^2.1.29",
-    "gatsby-plugin-sharp": "^2.4.5",
-    "gatsby-remark-emoji": "0.0.3",
-    "gatsby-remark-images": "^3.1.44",
-    "gatsby-remark-prismjs": "^3.3.31",
-    "gatsby-source-filesystem": "^2.1.48",
-    "gatsby-transformer-remark": "^2.6.53",
-    "gatsby-transformer-sharp": "^2.3.14",
-    "node-sass": "^4.13.1",
-    "prismjs": "^1.19.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "babel-jest": "^24.9.0",
-    "babel-preset-gatsby": "^0.1.11",
-    "gatsby-cli": "^2.8.30",
     "gh-pages": "^2.2.0",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^24.9.0",
     "prettier": "^1.19.1",
-    "react-test-renderer": "^16.12.0",
     "snyk": "^1.434.2"
   }
 }

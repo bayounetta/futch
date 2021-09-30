@@ -2,8 +2,6 @@
   <a href="https://www.futch.dev">futch.dev</a>
 </h1>
 
-the source for my website including my blog, project list, and bio
+on the internet, nobody knows you're a feral child raised by possums
 
-## 🚀 Quick start
-
-To run locally just `npm i && npm start` then open localhost:8000
+to run locally do a `npm i && npm start` then open `localhost:8000`
