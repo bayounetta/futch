@@ -6,16 +6,15 @@
   "version": "0.1.0",
   "license": "UNLICENSED",
   "scripts": {
-    "build":    "",
-    "start":    "",
-    "clean":    "",
-    "format":   "",
-    "test":     "",
-    "deploy":   ""
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf ./build ./node_modules",
+    "lint": "",
+    "test": "",
+    "deploy": ""
   },
   "dependencies": {
-  },
-  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
     "gh-pages": "^2.2.0",
     "prettier": "^1.19.1",
     "snyk": "^1.434.2"

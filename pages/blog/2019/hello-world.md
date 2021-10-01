@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: "2019-07-04T00:00:00.0Z"
-description:
+description: "hey hey hey"
 ---
 
 This is my first post on my new blog! I'm mostly making this post here as an example for how blog posts will look! :tada:
