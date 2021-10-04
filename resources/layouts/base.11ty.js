@@ -8,7 +8,7 @@ exports.render = function(data) {
     <meta name="description" content="${ data.description || data.metadata.description }">
   </head>
   <body>
-    <main> <!-- maybe not needed? -->
+    <main> <!-- TODO: maybe not needed? -->
       <header>
         <h1 class="home"><a href="${ '/' || data.url }">${ data.title || data.metadata.title }</a></h1>
       </header>

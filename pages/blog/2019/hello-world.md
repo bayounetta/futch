@@ -1,4 +1,5 @@
 ---
+layout: base
 title: Hello World
 date: "2019-07-04"
 description: "hey hey hey"
@@ -8,7 +9,7 @@ tags:
 ---
 ## This is my first post on my new blog! I'm mostly making this post here as an example for how blog posts will look! :tada:
 
-![](./images/pixel.png)
+{% image "pages/blog/2019/pixel.jpeg", "a pixelated moon rises over a horizon of clouds." %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ante lorem, ut ultricies ex tempor in. Duis in sem a libero viverra sollicitudin eget non enim. Praesent tempor placerat imperdiet. Aliquam et facilisis nisi. Maecenas sit amet lorem aliquet, molestie nisi vitae, vehicula sapien. Vestibulum vel tellus lacinia, rhoncus urna id, vulputate arcu. Ut consectetur ultricies magna. Donec quis lacus eu diam interdum dignissim. Vivamus posuere fringilla elementum. Mauris fermentum, enim in facilisis tempor, lorem eros rutrum sapien, ut consequat orci sem sit amet urna. Vivamus imperdiet nunc id magna euismod, ac malesuada quam maximus.
 
