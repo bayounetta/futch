@@ -1,21 +1,18 @@
 ---
 layout: base
 ---
+
 ## Blog posts, baked with love!
-<!-- {posts.map(({ node }) => {
-  const title = node.frontmatter.title || node.fields.slug;
-  return (
-    <div className="post" key={node.fields.slug}>
-      <div className="postTitle">
-        <Link to={node.fields.slug}>{title}</Link>
-        <span> - </span>
-        <span className="postDate">{node.frontmatter.date}</span>
-      </div>
-      <div className="postExcerpt"
-        dangerouslySetInnerHTML={{
-          __html: node.frontmatter.description || node.excerpt,
-        }}
-      />
+
+<div>
+{%- for post in collections.post reversed -%}
+  <div className="post" key={{post.fileSlug}}>
+    <div className="postTitle">
+      <a href={{post.url}}>{{post.data.title}}</a>
+      <span> - </span>
+      <span className="postDate">{{post.data.date}}</span>
     </div>
-  );
-})} -->
+    <div className="postExcerpt">{{post.data.description}}</div>
+  </div>
+{%- endfor -%}
+</div>

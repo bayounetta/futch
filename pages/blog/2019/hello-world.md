@@ -1,10 +1,12 @@
 ---
 title: Hello World
-date: "2019-07-04T00:00:00.0Z"
+date: "2019-07-04"
 description: "hey hey hey"
+tags:
+  - post
+  - test
 ---
-
-This is my first post on my new blog! I'm mostly making this post here as an example for how blog posts will look! :tada:
+## This is my first post on my new blog! I'm mostly making this post here as an example for how blog posts will look! :tada:
 
 ![](./images/pixel.png)
 
