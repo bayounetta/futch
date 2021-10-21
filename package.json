@@ -6,8 +6,12 @@
   "version": "0.1.0",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
+    "watch:sass": "sass --watch resources/styles:build/css",
+    "build:sass": "sass resources/styles:build/css",
+    "watch:eleventy": "eleventy --serve",
+    "build:eleventy": "eleventy",
+    "start": "npm-run-all --parallel watch:*",
+    "build": "npm-run-all build:*",
     "clean": "rm -rf ./build ./node_modules",
     "lint": "",
     "test": "",
@@ -17,7 +21,9 @@
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-img": "^0.10.0",
     "gh-pages": "^2.2.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "^1.19.1",
+    "sass": "^1.43.2",
     "snyk": "^1.434.2"
   }
 }

@@ -1,4 +1,4 @@
-@import '../../styles/includes/lib';
+@import './includes/lib';
 
 /* ♥ - - - - - - - - - - - - - ♥ */
 // Desktop Sidebar Navigation
@@ -22,7 +22,7 @@ nav {
     }
   }
 
-  @media #{$mq-md} {
+  @media #{$mobile-media} {
     border-right: solid 6px #4b568b;
     box-sizing: border-box;
     float: inline-start;
@@ -74,7 +74,7 @@ nav {
 nav img {
   display: none;
 
-  @media #{$mq-md} {
+  @media #{$mobile-media} {
     border-radius: 50%;
     border: 6px solid #ce895d;
     display: block;
@@ -87,7 +87,7 @@ nav img {
 .title {
   display: none;
 
-  @media #{$mq-md} {
+  @media #{$mobile-media} {
     display: block;
     font-size: 24px;
     letter-spacing: normal;

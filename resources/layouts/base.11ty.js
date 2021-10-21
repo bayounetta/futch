@@ -9,6 +9,10 @@ exports.render = async function(data) {
       ${data.site.title + (data.title ? ' | ' + data.title : '')}
     </title>
     <meta name="description" content="${data.description}">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/prism.css">
   </head>
   <body>
     <main>

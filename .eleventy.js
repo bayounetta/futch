@@ -63,6 +63,10 @@ module.exports = function(eleventyConfig) {
     } ${months[localedate.getMonth()]} ${localedate.getDate()}, ${localedate.getFullYear()}`;
   });
 
+  eleventyConfig.setBrowserSyncConfig({
+    files: 'build/css/**/*.css',
+  });
+
   return {
     dir: {
       output: 'build',

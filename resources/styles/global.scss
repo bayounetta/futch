@@ -14,7 +14,7 @@ html, body {
 
 footer {
   padding: 15px;
-  
+
   small {
     color: #4b568b;
     font-size: 10px;
@@ -23,8 +23,8 @@ footer {
 
 .page {
   padding: 30px;
-  
-  @media #{$mq-md} {
+
+  @media #{$mobile-media} {
     margin-left: 20%;
   }
 
@@ -73,7 +73,7 @@ footer {
 #abelian-webring-nav {
   display: none;
 
-  @media #{$mq-md} {
+  @media #{$mobile-media} {
     display: block;
   }
 }
