@@ -31,21 +31,21 @@ exports.render = async function(data) {
               </a>
             </li>
             <li className="sidebarStyles.div_three">
-              <a href="/love">
-                <span role="img" aria-label="yellow heart">💜</span>
-                love
-              </a>
-            </li>
-            <li className="sidebarStyles.div_four">
               <a href="/blog">
                 <span role="img" aria-label="spiral notepad">🗒️</span>
                 blog
               </a>
             </li>
-            <li className="sidebarStyles.div_five">
+            <li className="sidebarStyles.div_four">
               <a href="/work">
                 <span role="img" aria-label="hammer and pick">⚒️</span>
                 work
+              </a>
+            </li>
+            <li className="sidebarStyles.div_five">
+              <a href="/love">
+                <span role="img" aria-label="yellow heart">💜</span>
+                love
               </a>
             </li>
             <li className="sidebarStyles.div_six">
