@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 ---
 ## Over HTTPS no one can tell you're a dog
 

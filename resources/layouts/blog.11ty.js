@@ -1,7 +1,12 @@
-// import React from 'react';
-// import { graphql } from 'gatsby';
+exports.data = {
+  layout: 'base',
+};
 
-// import Layout from "../components/layout";
+exports.render = function(data) {
+  return `<h1>${data.title}</h1>
+  <h4>${this.toReadableDate(data.date)}</h4>
+  ${data.content || data.site.safe}`;
+};
 
 // export default (props) => (
 //   <Layout>

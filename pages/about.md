@@ -1,5 +1,7 @@
 ---
-layout: base
+layout: page
+permalink: "/about/index.html"
+title: about
 ---
 ## June's a southern trash possum
 

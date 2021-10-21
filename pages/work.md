@@ -1,5 +1,7 @@
 ---
-layout: base
+layout: page
+permalink: "/work/index.html"
+title: work
 ---
 ## WHAT HAVE I DONE!
 
@@ -9,4 +11,6 @@ I also work on Mozilla's [Updatebot](https://github.com/mozilla-services/updateb
 
 The team I'm a part of [tweets](https://twitter.com/attackndefense) and [blogs](https://blog.mozilla.org/attack-and-defense/) about bug bounties and low-level specifics for security researchers.
 
-There's other bits of public and non-public code out there but you can find most of it on [GitHub](https://www.github.com/metalcanine) which should not be confused for my [résumé](/RESUME_PUBLIC.pdf)
+There's other bits of public and non-public code out there but you can find most of it on [GitHub](https://www.github.com/metalcanine) which should not be confused for my [résumé](/static/RESUME_PUBLIC.pdf)
+
+[//]: # "TODO: add public copy of resume"

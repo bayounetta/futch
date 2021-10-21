@@ -1,5 +1,7 @@
 ---
-layout: base
+layout: page
+permalink: "/love/index.html"
+title: love
 ---
 ## A list of people and projects very dear to my heart.
 
@@ -12,3 +14,5 @@ layout: base
 [Louisiana Game Developers](https://www.lagd.network/) is an organization dedicated to fostering and promoting the game development community in Louisiana. They were there when I needed them most and I love em' to bits.
 
 [IncludeCPP](https://www.includecpp.org/) is a global, inclusive, and diverse community for developers interested in C++.
+
+[//]: # "TODO: re-evaluate these"
