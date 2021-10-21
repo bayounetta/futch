@@ -3,5 +3,12 @@ exports.data = {
 };
 
 exports.render = function(data) {
-  return `${data.content || data.site.safe}`;
+  return `
+  <div class="page">
+    ${data.content || data.site.safe}
+    <footer>
+      <small>© juniper wilde 2019-2021</small>
+    </footer>
+  </div>
+  `;
 };

@@ -1,15 +1,16 @@
 ---
 layout: page
-permalink: "/about/index.html"
+permalink: '/about/index.html'
 title: about
 ---
+
 ## June's a southern trash possum
 
 She's a huge fan of dogs
 
 Elle est Cadienne et Créole de Louisiane
 
-<section className="webring">
+<section class="webring">
   <iframe
     title="abelian"
     width="100%"

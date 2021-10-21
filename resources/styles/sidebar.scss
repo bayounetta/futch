@@ -66,84 +66,83 @@ nav {
       }
     }
   }
-}
+  /* ♥ - - - - - - - - - - - - - ♥ */
+  // Logo
 
-/* ♥ - - - - - - - - - - - - - ♥ */
-// Logo
+  nav img {
+    display: none;
 
-nav img {
-  display: none;
-
-  @media #{$mobile-media} {
-    border-radius: 50%;
-    border: 6px solid #ce895d;
-    display: block;
-    height: 12vh;
-    margin: 0 auto;
-    padding: 8px;
+    @media #{$mobile-media} {
+      border-radius: 50%;
+      border: 6px solid #ce895d;
+      display: block;
+      height: 12vh;
+      margin: 0 auto;
+      padding: 8px;
+    }
   }
-}
 
-.title {
-  display: none;
+  .title {
+    display: none;
 
-  @media #{$mobile-media} {
-    display: block;
-    font-size: 24px;
-    letter-spacing: normal;
-    margin: 15px 0;
+    @media #{$mobile-media} {
+      display: block;
+      font-size: 24px;
+      letter-spacing: normal;
+      margin: 15px 0;
+    }
   }
-}
 
-/* ♥ - - - - - - - - - - - - - ♥ */
-// Nav Colors
+  /* ♥ - - - - - - - - - - - - - ♥ */
+  // Nav Colors
 
-// TODO: gradient color function for li.
+  // TODO: gradient color function for li.
 
-.div_two {
-  background: #aa6ebe;
-}
+  .div_two {
+    background: #aa6ebe;
+  }
 
-.div_three {
-  background: #c276c8;
-}
+  .div_three {
+    background: #c276c8;
+  }
 
-.div_four {
-  background: #d27ec9;
-}
+  .div_four {
+    background: #d27ec9;
+  }
 
-.div_five {
-  background: #dd86c3;
-}
+  .div_five {
+    background: #dd86c3;
+  }
 
-.div_six {
-  background: #e78ebc;
-}
+  .div_six {
+    background: #e78ebc;
+  }
 
-.div_seven {
-  background: #f196b5;
-}
+  .div_seven {
+    background: #f196b5;
+  }
 
-/* ♥ - - - - - - - - - - - - - ♥ */
-// Hamburger Nav
+  /* ♥ - - - - - - - - - - - - - ♥ */
+  // Hamburger Nav
 
-button {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  float: right;
-  margin: 10px 5px;
-}
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin: 10px 5px;
+  }
 
-ul {
-  text-align: center;
-  width: 120px;
+  ul {
+    text-align: center;
+    width: 120px;
 
-  li {
-    padding: 10px 5px;
+    li {
+      padding: 10px 5px;
 
-    span {
-      display: none;
+      span {
+        display: none;
+      }
     }
   }
 }

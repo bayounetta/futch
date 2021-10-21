@@ -5,15 +5,14 @@ title: blog
 
 ## Blog posts, baked with love!
 
-<div>
+<div class="blog">
 {%- for post in collections.blog reversed -%}
-  <div className="post" key={{post.fileSlug}}>
-    <div className="postTitle">
-      <a href={{post.url}}>{{post.data.title}}</a>
-      <span> - </span>
-      <span className="postDate">{{post.date | toReadableDate }}</span>
+  <div key={{post.fileSlug}}>
+    <div class="title">
+      <a href={{post.url}}>{{post.data.title}}</a> -
+      <span class="date">{{post.date | toReadableDate }}</span>
     </div>
-    <div className="postExcerpt">{{post.data.excerpt}}</div>
+    <div class="excerpt">{{post.data.excerpt}}</div>
   </div>
 {%- endfor -%}
 </div>

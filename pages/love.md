@@ -1,8 +1,9 @@
 ---
 layout: page
-permalink: "/love/index.html"
+permalink: '/love/index.html'
 title: love
 ---
+
 ## A list of people and projects very dear to my heart.
 
 [Mozilla](https://www.mozilla.org) is committed to an internet that includes all the peoples of the earth and makes browsers, apps, code and tools to fulfill that mission.
@@ -15,4 +16,4 @@ title: love
 
 [IncludeCPP](https://www.includecpp.org/) is a global, inclusive, and diverse community for developers interested in C++.
 
-[//]: # "TODO: re-evaluate these"
+[//]: # 'TODO: re-evaluate these'

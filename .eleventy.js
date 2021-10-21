@@ -1,28 +1,44 @@
 const Image = require('@11ty/eleventy-img');
 const path = require('path');
 
-async function imageShortcode(image_name, alt, sizes) {
+async function imageShortcode(image_name, alt, classes = '', sizes = 'null') {
   console.log(`Generating image from: ${image_name}`);
 
-  let metadata = await Image(image_name, {
+  return await Image(image_name, {
     widths: [200, 750, 1500, null],
     formats: ['jpeg'],
     urlPath: '/static/images/',
     outputDir: 'build/static/images/',
-  });
+  }).then((metadata) =>
+    Image.generateHTML(metadata, {
+      alt,
+      sizes,
+      class: classes,
+      loading: 'lazy',
+      decoding: 'async',
+    })
+  );
+}
 
-  let imageAttributes = {
-    alt,
-    sizes,
-    loading: 'lazy',
-    decoding: 'async',
-  };
+async function backgroundShortcode(image_name) {
+  console.log(`Generating background from: ${image_name}`);
 
-  return Image.generateHTML(metadata, imageAttributes);
+  return await Image(image_name, {
+    widths: [null],
+    formats: ['jpeg'],
+    urlPath: '/static/images/',
+    outputDir: 'build/static/images/',
+  })
+    .then((images) => images.jpeg[0])
+    .then(
+      (image) =>
+        `background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${image.url})`
+    );
 }
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLiquidShortcode('image', imageShortcode);
+  eleventyConfig.addJavaScriptFunction('image', backgroundShortcode);
 
   eleventyConfig.addPassthroughCopy({ 'resources/static/': '/static' });
 
