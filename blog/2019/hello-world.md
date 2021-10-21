@@ -3,7 +3,7 @@ layout: blog
 title: Hello World
 date: 2019-07-04T22:07:36-0700
 excerpt: 'A test post for testing styles'
-hero: pixel.jpeg
+hero: blog/2019/pixel.jpeg
 tags:
   - blog
   - hello

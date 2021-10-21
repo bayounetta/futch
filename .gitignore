@@ -10,7 +10,7 @@ coverage
 
 # npm output
 .npm
-node_modules/
+node_modules
 .node_repl_history
 .env
 
@@ -22,3 +22,4 @@ node_modules/
 
 # eleventy output
 build
+.cache
