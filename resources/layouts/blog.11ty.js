@@ -12,9 +12,6 @@ exports.render = async function(data) {
     <div class="content">
       ${data.content || data.site.safe}
     </div>
-    <footer>
-      <small>© juniper wilde 2019-2021</small>
-    </footer>
   </div>
   `;
 };

@@ -1,5 +1,5 @@
 const Image = require('@11ty/eleventy-img');
-const path = require('path');
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 async function imageShortcode(image_name, alt, classes = '', sizes = 'null') {
   console.log(`Generating image from: ${image_name}`);
@@ -32,7 +32,7 @@ async function backgroundShortcode(image_name) {
     .then((images) => images.jpeg[0])
     .then(
       (image) =>
-        `style = "background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(${image.url})"`
+        `style = "background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(${image.url})"`
     );
 }
 
@@ -82,6 +82,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
     files: 'build/css/**/*.css',
   });
+
+  eleventyConfig.addPlugin(syntaxHighlight);
 
   return {
     dir: {

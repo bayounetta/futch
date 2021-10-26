@@ -10,9 +10,9 @@ exports.render = async function(data) {
     </title>
     <meta name="description" content="${data.description}">
     <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/prism.css">
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/sidebar.css">
-    <link rel="stylesheet" href="/css/prism.css">
   </head>
   <body>
     <main>
@@ -20,43 +20,46 @@ exports.render = async function(data) {
         <button class="hamburger-button">
           <img src="/static/images/hamburger.svg" alt="hamburger menu icon" />
         </button>
-        <div class="sidebarStyles.container" style="display:block"> <!-- TODO: remove 'sidebar' from class names -->
+        <div class="container" style="display:block">
           <ul>
-            <li class="sidebarStyles.div_one sidebarStyles.title">
-            <a href="/">
-              <img src="/static/images/portrait.jpeg" alt="a cute possum" />
-            </a>
-            juniper wilde
-            </li>
-            <li class="sidebarStyles.div_two">
+            <li class="div_one title">
               <a href="/">
-                <span role="img" aria-label="fleur de lis">⚜️</span>
+                <img src="/static/images/portrait.jpeg" alt="a cute pic of me" />
+              </a>
+              juniper wilde
+            </li>
+            <li class="div_two">
+              <a href="/">
                 home
+                <span role="img" aria-label="fleur de lis">⚜️</span>
               </a>
             </li>
-            <li class="sidebarStyles.div_three">
+            <li class="div_three">
               <a href="/blog">
-                <span role="img" aria-label="spiral notepad">🗒️</span>
                 blog
+                <span role="img" aria-label="ledger">📒</span>
               </a>
             </li>
-            <li class="sidebarStyles.div_four">
+            <li class="div_four">
               <a href="/work">
-                <span role="img" aria-label="hammer and pick">⚒️</span>
                 work
+                <span role="img" aria-label="hammer and pick">⚒️</span>
               </a>
             </li>
-            <li class="sidebarStyles.div_five">
+            <li class="div_five">
               <a href="/love">
-                <span role="img" aria-label="yellow heart">💜</span>
                 love
+                <span role="img" aria-label="yellow heart">💜</span>
               </a>
             </li>
-            <li class="sidebarStyles.div_six">
+            <li class="div_six">
               <a href="/about">
-                <span role="img" aria-label="woman technologist: light skin tone">👩🏻‍💻</span>
                 about
+                <span role="img" aria-label="woman technologist: light skin tone">👩🏻‍💻</span>
               </a>
+            </li>
+            <li class="div_final">
+              <footer><small>© juniper wilde 2019-2021</small></footer>
             </li>
           </ul>
         </div>

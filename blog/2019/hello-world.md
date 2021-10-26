@@ -12,20 +12,7 @@ tags:
 
 ### This is my first post on my new blog! I'm mostly making this post here as an example for how blog posts will look! 🎉
 
-{% image "blog/2019/pixel.jpeg", "a pixelated moon rises over a horizon of clouds.", "hero" %}
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ante lorem, ut ultricies ex tempor in. Duis in sem a libero viverra sollicitudin eget non enim. Praesent tempor placerat imperdiet. Aliquam et facilisis nisi. Maecenas sit amet lorem aliquet, molestie nisi vitae, vehicula sapien. Vestibulum vel tellus lacinia, rhoncus urna id, vulputate arcu. Ut consectetur ultricies magna. Donec quis lacus eu diam interdum dignissim. Vivamus posuere fringilla elementum. Mauris fermentum, enim in facilisis tempor, lorem eros rutrum sapien, ut consequat orci sem sit amet urna. Vivamus imperdiet nunc id magna euismod, ac malesuada quam maximus.
-
-```css
-.page {
-  width: 60%;
-  padding: 2.6em;
-  padding-left: 4em;
-  padding-right: 2em;
-}
-```
-
-Etiam mollis libero sed dolor placerat, sed viverra risus vestibulum. Cras pulvinar nisi lorem, ac ultrices dolor mattis et. In hac habitasse platea dictumst. Suspendisse mollis eleifend feugiat. Suspendisse eleifend risus libero, feugiat tempus diam interdum quis. Praesent a molestie metus. Cras luctus euismod libero, eu mattis dui iaculis quis. Etiam vel iaculis augue. Cras et dignissim eros, quis consectetur lacus. Suspendisse dictum dictum nibh. Integer sodales ante eget laoreet malesuada. Duis tincidunt elit in risus tincidunt, et egestas magna dictum. Nunc accumsan risus vel faucibus ullamcorper. Sed posuere augue nec nibh imperdiet, eu ullamcorper tellus accumsan.
 
 ```c
 /**
@@ -51,6 +38,19 @@ struct MarFile_ {
 
 typedef struct MarFile_ MarFile;
 ```
+
+```css
+.page {
+  width: 60%;
+  padding: 2.6em;
+  padding-left: 4em;
+  padding-right: 2em;
+}
+```
+
+Etiam mollis libero sed dolor placerat, sed viverra risus vestibulum. Cras pulvinar nisi lorem, ac ultrices dolor mattis et. In hac habitasse platea dictumst. Suspendisse mollis eleifend feugiat. Suspendisse eleifend risus libero, feugiat tempus diam interdum quis. Praesent a molestie metus. Cras luctus euismod libero, eu mattis dui iaculis quis. Etiam vel iaculis augue. Cras et dignissim eros, quis consectetur lacus. Suspendisse dictum dictum nibh. Integer sodales ante eget laoreet malesuada. Duis tincidunt elit in risus tincidunt, et egestas magna dictum. Nunc accumsan risus vel faucibus ullamcorper. Sed posuere augue nec nibh imperdiet, eu ullamcorper tellus accumsan.
+
+{% image "blog/2019/pixel.jpeg", "a pixelated moon rises over a horizon of clouds.", "hero" %}
 
 ```javascript
 //ES5 code

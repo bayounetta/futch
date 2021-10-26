@@ -5,7 +5,7 @@ title: blog
 
 ## Blog posts, baked with love!
 
-<div class="blog">
+<div>
 {%- for post in collections.blog reversed -%}
   <div key={{post.fileSlug}}>
     <div class="title">
