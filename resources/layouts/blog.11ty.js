@@ -6,8 +6,8 @@ exports.render = async function(data) {
   return `
   <div class="blog">
     <div class="hero-image" ${await this.image(data.hero)}>
-      <h1 class="title hero-title">${data.title}</h1>
-      <h4 class="date hero-date">${this.toReadableDate(data.date)}</h4>
+      <div class="title hero-title">${data.title}</div>
+      <div class="date hero-date">${this.toReadableDate(data.date)}</div>
     </div>
     <div class="content">
       ${data.content || data.site.safe}

@@ -38,7 +38,7 @@ nav {
         padding-bottom: 2%;
 
         small {
-          color: #4b568b;
+          color: #5c2e66;
           font-size: 10px;
           letter-spacing: initial;
         }
@@ -72,17 +72,16 @@ nav {
     // }
 
     border-radius: 50%;
-    border: 6px solid #ce895d;
+    border: 10px solid #5c2e66;
     display: block;
     height: 16vh;
-    margin: 0 auto;
-    padding: 6px;
+    margin: 0 auto 2vh auto;
   }
 
   /* ♥ - - - - - - - - - - - - - ♥ */
   // Nav Colors
 
-  // TODO: gradient color function for li.
+  // TODO: gradient color function for li elements
 
   .div_one {
     // TODO: add mobile media queries back in

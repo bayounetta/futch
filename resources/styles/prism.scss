@@ -30,8 +30,8 @@ pre[class*='language-'] {
 /* Code blocks */
 pre[class*='language-'] {
   position: relative;
-  border-left: 10px solid #9267b4;
-  box-shadow: -1px 0 0 0 #9267b4, 0 0 0 1px #dfdfdf;
+  border-left: 10px solid adjust-color($color: lavenderblush, $lightness: -6%);
+  box-shadow: -1px 0 0 0 adjust-color($color: lavenderblush, $lightness: -6%), 0 0 0 1px #dfdfdf;
   background-color: #fdfdfd;
   background-image: linear-gradient(
     transparent 50%,

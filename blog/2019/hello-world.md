@@ -5,12 +5,106 @@ date: 2019-07-04T22:07:36-0700
 excerpt: 'A test post for testing styles'
 hero: blog/2019/pixel.jpeg
 tags:
-  - blog
   - hello
   - test
 ---
 
-### This is my first post on my new blog! I'm mostly making this post here as an example for how blog posts will look! 🎉
+# H1
+
+---
+
+## H2
+
+### H3
+
+#### H4
+
+---
+
+##### H5
+
+---
+
+Emphasis, aka italics, with _asterisks_ or _underscores_.
+
+Strong emphasis, aka bold, with **asterisks** or **underscores**.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+Strikethrough uses two tildes. ~~Scratch this.~~
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
+
+Inline `code` has `back-ticks around` it.
+
+```javascript
+var s = 'JavaScript syntax highlighting';
+alert(s);
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```text
+No language indicated.
+So no syntax highlighting.
+```
+
+1. First ordered list item
+2. Another item
+   - Unordered sub-list
+3. Actual numbers don't matter, just that it's a number
+   1. Ordered sub-list
+4. And another item.
+
+- Unordered list can use asterisks
+
+* Or minuses
+
+- Or pluses
+
+[I'm an inline-style link](https://www.example.com)
+
+[I'm an inline-style link with title](https://www.example.com "Example's Homepage")
+
+[I'm a reference-style link][arbitrary case-insensitive reference text]
+
+[I'm a relative reference](../../../robots.txt)
+
+[You can use numbers for reference-style link definitions][1]
+
+[//]: # "I'm a comment and the following lines make our references work!"
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://www.mozilla.org
+[link text itself]: http://www.example.com
+
+Or leave it empty and use the [link text itself].
+
+URLs in angle brackets will automatically get turned into links like <http://www.example.com> does.
+
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
+
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| _Still_  | `renders` | **nicely** |
+| 1        | 2         | 3          |
+
+Here is a footnote reference[^1], and another.[^longnote]
+[^1]: Here is the footnote.
+[^longnote]: Here's one with multiple blocks.
+  Subsequent paragraphs are indented to show that they
+belong to the previous footnote.
+
+#### This is my first post on my new blog! I'm mostly making this post here as an example for how blog posts will look! 🎉
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ante lorem, ut ultricies ex tempor in. Duis in sem a libero viverra sollicitudin eget non enim. Praesent tempor placerat imperdiet. Aliquam et facilisis nisi. Maecenas sit amet lorem aliquet, molestie nisi vitae, vehicula sapien. Vestibulum vel tellus lacinia, rhoncus urna id, vulputate arcu. Ut consectetur ultricies magna. Donec quis lacus eu diam interdum dignissim. Vivamus posuere fringilla elementum. Mauris fermentum, enim in facilisis tempor, lorem eros rutrum sapien, ut consequat orci sem sit amet urna. Vivamus imperdiet nunc id magna euismod, ac malesuada quam maximus.
 
@@ -93,8 +187,6 @@ B // userNames[2]
 C // userNames[3]
 D // userNames[4]
 ```
-
-### let cannot be redeclared
 
 Phasellus eget bibendum metus, quis consequat ex. Sed ipsum lectus, congue semper iaculis non, accumsan ac dolor. Cras venenatis euismod eros. Maecenas eget leo leo. Donec sit amet augue vitae eros rhoncus elementum vitae non odio. In hac habitasse platea dictumst. Integer dolor sem, tincidunt vitae euismod sit amet, euismod a elit. Donec commodo ac justo vel ullamcorper. Donec id urna sit amet lacus tempus molestie. Etiam nec lacus nec lacus interdum euismod vulputate non tortor. Etiam nulla lorem, molestie ut dapibus dictum, molestie ac leo. Cras odio ipsum, hendrerit mattis tempus id, maximus non quam. Maecenas quam ipsum, porta et massa a, bibendum condimentum mauris. Duis ac tristique massa, vel eleifend dolor.
 
