@@ -2,8 +2,14 @@
 layout: page
 ---
 
-## Over HTTPS no one can tell you're a dog
+# wild possum runns amok
 
-if you need to reach me you can do so thru at junewilde (a) pm (dot) me
+---
 
-okay bye, there's a dog screaming at me.
+#### if you need to reach me you can do so at junewilde (at) pm (dot) me
+
+#### gotta go
+
+#### there's a dog screaming at me
+
+#### bye

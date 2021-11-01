@@ -3,7 +3,9 @@ layout: page
 title: blog
 ---
 
-## Blog posts, baked with love!
+# fresh posts baked with love
+
+---
 
 <div>
 {%- for post in collections.published reversed -%}

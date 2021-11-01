@@ -4,11 +4,19 @@ permalink: '/about/index.html'
 title: about
 ---
 
-## June's a southern trash possum
+# my name is june
 
-She's a huge fan of dogs
+---
 
-Elle est Cadienne et Créole de Louisiane
+#### I'm a software engineering specializing in security
+
+#### I like to make websites and my favorite things to work on are artistic projects, tools to make my life easier, and tools to keep people safe online
+
+#### everything sucks and is bad but working together we can make it a better place
+
+#### don't forget to always party like it's 1999
+
+#### I'm a part of a webring
 
 <section class="webring">
   <iframe

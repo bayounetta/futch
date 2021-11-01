@@ -101,7 +101,7 @@ URLs in angle brackets will automatically get turned into links like <http://www
 Here is a footnote reference[^1], and another.[^longnote]
 [^1]: Here is the footnote.
 [^longnote]: Here's one with multiple blocks.
-  Subsequent paragraphs are indented to show that they
+Subsequent paragraphs are indented to show that they
 belong to the previous footnote.
 
 #### This is my first post on my new blog! I'm mostly making this post here as an example for how blog posts will look! 🎉
