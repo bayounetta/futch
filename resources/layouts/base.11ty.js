@@ -59,7 +59,7 @@ exports.render = async function(data) {
               </a>
             </li>
             <li class="div_final">
-              <footer><small>© juniper wilde 2019-2021</small></footer>
+              <footer><small>© juniper wilde 2019-${new Date().getFullYear()}</small></footer>
             </li>
           </ul>
         </div>
