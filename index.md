@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# wild possum runns amok
+# wild possum runs amok
 
 ---
 

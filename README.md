@@ -18,4 +18,4 @@ on the internet, nobody knows you're a feral child raised by possums
 [//]: # "TODO: make page art"
 [//]: # "TODO: write deploy command"
 [//]: # "TODO: add lint command"
-[//]: # "TODO: add tests to validate accessibility and other required features"
+[//]: # "TODO: add tests to validate accessibility, spelling, and other required features"
