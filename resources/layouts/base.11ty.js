@@ -11,8 +11,8 @@ exports.render = async function(data) {
     <meta name="description" content="${data.description}">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/prism.css">
-    <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/global.css">
   </head>
   <body>
     <main>
@@ -30,26 +30,30 @@ exports.render = async function(data) {
             </li>
             <li class="div_two">
               <a href="/">
-                home
+                ho
                 <span role="img" aria-label="fleur de lis">⚜️</span>
+                me
               </a>
             </li>
             <li class="div_three">
               <a href="/blog">
-                blog
+                bl
                 <span role="img" aria-label="ledger">📒</span>
+                og
               </a>
             </li>
             <li class="div_four">
               <a href="/work">
-                work
-                <span role="img" aria-label="hammer and pick">⚒️</span>
+                wo
+                <span role="img" aria-label="warning">⚠️</span>
+                rk
               </a>
             </li>
             <li class="div_five">
               <a href="/love">
-                love
-                <span role="img" aria-label="yellow heart">💜</span>
+                lo
+                <span role="img" aria-label="yellow heart">💛</span>
+                ve
               </a>
             </li>
             <li class="div_six">

@@ -15,7 +15,6 @@ on the internet, nobody knows you're a feral child raised by possums
 | `npm run deploy`  | does nothing                                            |
 
 [//]: # "TODO: make new favicon"
-[//]: # "TODO: make page art"
 [//]: # "TODO: write deploy command"
 [//]: # "TODO: add lint command"
 [//]: # "TODO: add tests to validate accessibility, spelling, and other required features"

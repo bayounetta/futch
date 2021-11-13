@@ -3,7 +3,9 @@ layout: page
 title: blog
 ---
 
-# fresh posts baked with love
+---
+
+# posts baked with love
 
 ---
 

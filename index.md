@@ -2,14 +2,16 @@
 layout: page
 ---
 
-# wild possum runs amok
+---
+
+# welcome!
 
 ---
 
-#### if you need to reach me you can do so at junewilde (at) pm (dot) me
+#### this site exists as my primary presence on the web
 
-#### gotta go
+#### i use it for sharing updates about projects and to write about things i love
 
-#### there's a dog screaming at me
+#### that usually means programming, computers, obsolete technology, and dogs
 
-#### bye
+#### i hope you enjoy my writing and also find it useful!

@@ -3,7 +3,6 @@ layout: blog
 title: Hello World
 date: 2019-07-04T22:07:36-0700
 excerpt: 'A test post for testing styles'
-hero: blog/2019/pixel.jpeg
 tags:
   - hello
   - test
@@ -144,7 +143,7 @@ typedef struct MarFile_ MarFile;
 
 Etiam mollis libero sed dolor placerat, sed viverra risus vestibulum. Cras pulvinar nisi lorem, ac ultrices dolor mattis et. In hac habitasse platea dictumst. Suspendisse mollis eleifend feugiat. Suspendisse eleifend risus libero, feugiat tempus diam interdum quis. Praesent a molestie metus. Cras luctus euismod libero, eu mattis dui iaculis quis. Etiam vel iaculis augue. Cras et dignissim eros, quis consectetur lacus. Suspendisse dictum dictum nibh. Integer sodales ante eget laoreet malesuada. Duis tincidunt elit in risus tincidunt, et egestas magna dictum. Nunc accumsan risus vel faucibus ullamcorper. Sed posuere augue nec nibh imperdiet, eu ullamcorper tellus accumsan.
 
-{% image "blog/2019/pixel.jpeg", "a pixelated moon rises over a horizon of clouds.", "hero" %}
+{% image "blog/2019/test.jpeg", "'your shitpost here!' written in pink cursive on a black background." %}
 
 ```javascript
 //ES5 code

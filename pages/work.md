@@ -4,14 +4,20 @@ permalink: '/work/index.html'
 title: work
 ---
 
-# WHAT HAVE I DONE!?!?
+---
+
+# from the cpp mines
 
 ---
 
-#### some examples of my work can be found in [Mozilla's Central Mercurial Repository](https://hg.mozilla.org/mozilla-central/log?rev=jewilde)
+#### [Firefox](https://hg.mozilla.org/mozilla-central/log?rev=jewilde) is a web browser focused on privacy and security
 
-#### I also work on Mozilla's [Updatebot](https://github.com/mozilla-services/updatebot/) for keeping vendored third-party dependencies up to date
+#### [Updatebot](https://github.com/mozilla-services/updatebot/) is a tool to keep libraries in Firefox up to date
 
-#### there's other bits of my code out running wild and free in the sky, hiding in strange corners of the web, and on [GitHub](https://www.github.com/metalcanine) which should not be confused for my [résumé](/static/RESUME_PUBLIC.pdf)
+#### [Assorted repos](https://www.github.com/bayounetta) for various tools, utilities, and example projects
 
 [//]: # 'TODO: add public copy of resume'
+
+#### [My résumé](/static/RESUME_PUBLIC.pdf) may help fill in some of the other gaps
+
+#### there's other bits of my code out running wild and free in the sky and in strange corners of the web but those have since grown lives of their own

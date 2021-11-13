@@ -4,19 +4,23 @@ permalink: '/about/index.html'
 title: about
 ---
 
+---
+
 # my name is june
 
 ---
 
-#### I'm a software engineering specializing in security
+#### i'm a security engineer
 
-#### I like to make websites and my favorite things to work on are artistic projects, tools to make my life easier, and tools to keep people safe online
+#### i'm cajun and louisiana creole
 
-#### everything sucks and is bad but working together we can make it a better place
+#### i like to make websites and work on are artistic projects, tools to make our lives easier, and tools to keep people safe online
 
-#### don't forget to always party like it's 1999
+#### if you need to reach me you can do so at junewilde (at) pm (dot) me
 
-#### I'm a part of a webring
+#### brb there's a dog screaming at me bye
+
+#### don't forget to always party like it's 1999 web > 1.0 doesn't exist
 
 <section class="webring">
   <iframe
