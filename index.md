@@ -8,7 +8,7 @@ layout: page
 
 ---
 
-#### this site exists as my primary presence on the web
+#### this is my home page on the internet!
 
 #### i use it for sharing updates about projects and to write about things i love
 
