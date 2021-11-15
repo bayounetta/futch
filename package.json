@@ -13,7 +13,7 @@
     "start": "npm-run-all --parallel watch:*",
     "build": "npm-run-all build:*",
     "clean": "rm -rf ./build ./node_modules ./.cache",
-    "lint": "",
+    "lint": "prettier --check './**/*.{js,json,html,scss,md}'",
     "test": "",
     "deploy": "env NODE_ENV=production npm run build"
   },

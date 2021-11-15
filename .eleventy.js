@@ -2,9 +2,7 @@ const Image = require('@11ty/eleventy-img');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const markdownIt = require('markdown-it')({
   html: true,
-}).use(
-  require('markdown-it-footnote')
-);
+}).use(require('markdown-it-footnote'));
 
 async function imageShortcode(image_name, alt, classes = '', sizes = 'null') {
   console.log(`Generating image from: ${image_name}`);

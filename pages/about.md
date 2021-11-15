@@ -14,7 +14,7 @@ title: about
 
 #### i'm cajun and louisiana creole
 
-#### i like to make websites and work on are artistic projects, tools to make our lives easier, and tools to keep people safe online
+#### i like to make websites and work on artistic projects, tools to make our lives easier, and tools to keep people safe online
 
 #### if you need to reach me you can do so at junewilde (at) pm (dot) me
 
