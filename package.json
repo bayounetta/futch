@@ -15,7 +15,7 @@
     "clean": "rm -rf ./build ./node_modules ./.cache",
     "lint": "",
     "test": "",
-    "deploy": ""
+    "deploy": "env NODE_ENV=production npm run build"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
