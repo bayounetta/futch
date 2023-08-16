@@ -98,7 +98,7 @@ main {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ffecec;
+  color: rgb(255, 236, 236);
 }
 .blog .hero-image .hero-date {
   font-size: 1.2em;
@@ -107,7 +107,7 @@ main {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ffecec;
+  color: rgb(255, 236, 236);
 }
 
 /* ♥ - - - - - - - - - - - - - ♥ */
