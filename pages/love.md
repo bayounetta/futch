@@ -6,8 +6,10 @@ title: love
 
 ---
 
-# dear to my heart
+# things dear to my heart
 
 ---
 
-#### cat girls, i'm lesbians
+#### You approach the massive omelette...
+
+#### ... and manage to take a slice!!!

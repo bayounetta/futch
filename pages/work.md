@@ -6,18 +6,12 @@ title: work
 
 ---
 
-# from the cpp mines
+# gems from the cpp mines
 
 ---
 
-#### [Firefox](https://hg.mozilla.org/mozilla-central/log?rev=jewilde) is a web browser focused on privacy and security
+#### [hg.mozilla.org](https://hg.mozilla.org/mozilla-central/log?rev=jewilde%40mozilla.com+or+jewilde) has various bits of my work in several programming languages
 
-#### [Updatebot](https://github.com/mozilla-services/updatebot/) is a tool to keep libraries in Firefox up to date
+#### [my public repositories](https://www.github.com/bayounetta) are full of a random grab bag of trash
 
-#### [Assorted repos](https://www.github.com/bayounetta) for various tools, utilities, and example projects
-
-[//]: # 'TODO: add public copy of resume'
-
-#### [My résumé](/static/RESUME_PUBLIC.pdf) may help fill in some of the other gaps
-
-#### there's other bits of my code out running wild and free in the sky and in strange corners of the web but those have since grown lives of their own
+#### there's more code off in the far reaches of the space since passed into myth and legend
