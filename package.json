@@ -14,8 +14,7 @@
     "build": "npm-run-all build:*",
     "clean": "rm -rf ./build ./node_modules ./.cache",
     "lint": "prettier --check './**/*.{js,json,html,scss,md}'",
-    "test": "",
-    "deploy": "env NODE_ENV=production npm run build"
+    "test": ""
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
