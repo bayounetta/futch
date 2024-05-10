@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.futch.dev/blog/2019/hello-world/</loc>
+    <lastmod>2019-07-04T07:00:00Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.futch.dev/blog/2023/mmmayhem-part-1/</loc>
+    <lastmod>2023-08-27T07:00:00Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.futch.dev/blog/2023/mmmayhem-part-2/</loc>
+    <lastmod>2023-09-24T07:00:00Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.futch.dev/blog/</loc>
+    <lastmod>2024-05-10T01:08:43Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.futch.dev/</loc>
+    <lastmod>2024-05-10T01:08:43Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.futch.dev/about/</loc>
+    <lastmod>2024-05-10T01:08:43Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.futch.dev/love/</loc>
+    <lastmod>2024-05-10T01:08:43Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.futch.dev/work/</loc>
+    <lastmod>2024-05-10T01:08:43Z</lastmod>
+  </url>
+</urlset>
