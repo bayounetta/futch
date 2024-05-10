@@ -1,0 +1,25 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# coverage output
+lib-cov
+coverage
+.nyc_output
+
+# npm output
+.npm
+node_modules
+.node_repl_history
+.env
+
+# Optional eslint cache
+.eslintcache
+
+# Mac files
+.DS_Store
+
+# eleventy output
+build
+.cache

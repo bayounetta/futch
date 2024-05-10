@@ -1,0 +1,261 @@
+@import './includes/lib';
+
+/* ♥ - - - - - - - - - - - - - ♥ */
+// Global Styles
+
+html {
+  color: #1e232c;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lavenderblush;
+}
+
+html,
+body,
+main {
+  height: 100%;
+}
+
+/* ♥ - - - - - - - - - - - - - ♥ */
+// Layout
+
+.page {
+  padding: 30px;
+  margin-left: 20vw;
+
+  p {
+    line-height: 1.4em;
+    padding-bottom: 1.4em;
+    padding-top: initial;
+    text-indent: initial;
+  }
+
+  .title {
+    font-size: 1.6em;
+    margin-bottom: 0.4em;
+  }
+
+  .date {
+    font-size: initial;
+    font-style: italic;
+  }
+
+  .excerpt {
+    line-height: 1.4em;
+    margin-bottom: 3em;
+  }
+}
+
+/* ♥ - - - - - - - - - - - - - ♥ */
+// Blogposts
+
+.blog {
+  height: 100%;
+  margin-left: 20vw;
+
+  p {
+    text-indent: 4em;
+  }
+
+  ol,
+  ul {
+    text-indent: 1.5em;
+    padding-bottom: 1.2em;
+    padding-top: 1.2em;
+    padding-left: 2em;
+    line-height: 1.6em;
+
+    ol,
+    ul {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .content {
+    padding: 30px;
+  }
+
+  .footnotes {
+    font-size: 0.7em;
+
+    .footnotes-list {
+      p {
+        text-indent: 0em;
+        padding-top: 0em;
+        padding-bottom: 0em;
+      }
+    }
+  }
+
+  .hero-image {
+    background-color: #1e232c;
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .hero-title {
+      font-size: 4em;
+      font-weight: bold;
+      text-align: center;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(255, 236, 236);
+    }
+
+    .hero-date {
+      font-size: 1.2em;
+      text-align: center;
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(255, 236, 236);
+    }
+  }
+}
+
+/* ♥ - - - - - - - - - - - - - ♥ */
+// Markdown
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+  padding-bottom: 1.2em;
+}
+
+h3 {
+  font-size: 2em;
+  padding-bottom: 1em;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 1.6em;
+  padding-bottom: 1em;
+}
+
+h5 {
+  font-size: 1.2em;
+  padding-bottom: 1em;
+}
+
+hr {
+  width: 60%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+span {
+  display: inline;
+}
+
+p {
+  padding-bottom: 1.2em;
+  padding-top: 1.2em;
+  line-height: 1.6em;
+
+  code {
+    padding: 0.2em 0.4em 0.2em 0.4em;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    background-color: adjust-color($color: lavenderblush, $lightness: 2%);
+    box-shadow: 0 0 0 1px #dfdfdf;
+  }
+}
+
+pre {
+  margin-bottom: 1.4em;
+  margin-top: 1.4em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+blockquote {
+  p {
+    text-indent: 0;
+  }
+
+  padding: 0 1em;
+  border-left: 10px solid adjust-color($color: lavenderblush, $lightness: -6%);
+  font-style: italic;
+  background-color: adjust-color($color: lavenderblush, $lightness: 2%);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+sup {
+  vertical-align: super;
+  font-size: 0.6em;
+}
+
+table {
+  margin-bottom: 1.2em;
+  margin-top: 1.2em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  thead {
+    font-weight: bold;
+    background-color: adjust-color($color: lavenderblush, $lightness: -6%);
+    border: 4px solid adjust-color($color: lavenderblush, $lightness: -6%);
+    font-size: 1.2em;
+    th {
+      padding: 1em;
+    }
+  }
+
+  tbody {
+    background-color: adjust-color($color: lavenderblush, $lightness: -2%);
+    td {
+      border: 4px solid adjust-color($color: lavenderblush, $lightness: -6%);
+      padding: 1em;
+    }
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+/* ♥ - - - - - - - - - - - - - ♥ */
+// Webring
+
+#abelian-webring-nav {
+  display: block;
+}
